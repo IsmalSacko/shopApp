@@ -1,0 +1,19 @@
+<div class="formation_item">
+
+  <div class="formation_container">
+    <img [src]="formation ? formation.imageUrl[0]: ''" alt="image de la formation {{formation?.name}}">
+    <div class="formation_details">
+      <div class="f_name">
+        <h2>{{formation?.name}}</h2>
+      </div>
+      <hr>
+      <div class="f_price">
+        <h4>{{formation?.sold_price }} €</h4>
+        <del><h4>{{formation?.regular_price }} €</h4></del>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>

@@ -1,0 +1,38 @@
+.formation_item{
+   text-align: center;
+  width: 300px;
+  display: flex;
+  cursor: pointer;
+}
+.formation_item:hover{
+  background-color: dimgray;
+  color: #efefef;
+}
+.formation_item img{
+  width: 300px;
+  height: 200px;
+
+}
+
+.formation_container{
+  border: 0.1px solid black;
+
+}
+.f_price{
+  display: flex;
+  gap: 10px;
+
+  justify-content: center;
+}
+.f_price del{
+  color: red;
+}
+.f_name{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 900px){
+
+
+
+}
